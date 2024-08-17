@@ -3,7 +3,7 @@ import Header from './component/Header';
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: '#0C050F', minHeight: '100vh',margin: 0}}>
       <Header />
       <Body />
     </div>

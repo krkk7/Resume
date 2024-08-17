@@ -10,8 +10,8 @@ import MyImage from '../assets/1.png';
 function Header() {
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+      <Box sx={{ flexGrow: 1}}>
+      <AppBar position="static" sx={{ backgroundColor: '#DAA520' }}>
           <Toolbar>
             <Stack direction="row" spacing={2}>
               <Avatar alt="Avatar" src={MyImage}  sx={{ width: 56, height: 50 }} />
